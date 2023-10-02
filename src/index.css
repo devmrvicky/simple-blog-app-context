@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.posts::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .blog-body {
+    flex-direction: column;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+}
